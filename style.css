@@ -78,9 +78,8 @@ main {
 #selectedCard {
     text-align: center;
     margin: 0 auto;
-    width: 350px;
+    width: 500px;
     height: 300px;
-    padding: 10px;
 }
 
 #selectedCard button{
@@ -89,9 +88,22 @@ main {
 }
 
 #doodle {
-    width: 150px;
+    width: 200px;
     height: auto;
     position: fixed;
     bottom: 0;
     right: 0;
 }
+
+@media screen and (max-width: 480px) {
+    #selectedCard {
+        width: 350px;
+        height: 300px;
+    }
+    #doodleContainer {
+        text-align: center;
+    }
+    #doodle {
+        position: relative;
+    }
+  }
