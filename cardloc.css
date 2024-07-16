@@ -1,0 +1,624 @@
+#card1{
+    grid-column-start: 1;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 1;
+    
+}
+
+#card2{
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 2;
+}
+
+#card3{
+    grid-column-start: 5;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 3;
+}
+
+#card4{
+    grid-column-start: 7;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 4;
+}
+
+#card5{
+    grid-column-start: 9;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 5;
+}
+
+#card6{
+    grid-column-start: 11;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 6;
+}
+
+#card7{
+    grid-column-start: 13;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 7;
+}
+
+#card8{
+    grid-column-start: 15;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 8;
+}
+
+#card9{
+    grid-column-start: 17;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 9;
+}
+
+#card10{
+    grid-column-start: 19;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 10;
+}
+
+#card11{
+    grid-column-start: 21;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 11;
+}
+
+#card12{
+    grid-column-start: 23;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 12;
+}
+
+#card13{
+    grid-column-start: 25;
+    grid-column-end: span 7;
+    grid-row-start: 1;
+    grid-row-end: span 11;
+    z-index: 13;
+}
+
+#card14{
+    grid-column-start: 1;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 14;
+}
+
+#card15{
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 15;
+}
+
+#card16{
+    grid-column-start: 5;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 16;
+}
+
+#card17{
+    grid-column-start: 7;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 17;
+}
+
+#card18{
+    grid-column-start: 9;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 18;
+}
+
+#card19{
+    grid-column-start: 11;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 19;
+}
+
+#card20{
+    grid-column-start: 13;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 20;
+}
+
+#card21{
+    grid-column-start: 15;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 21;
+}
+
+#card22{
+    grid-column-start: 17;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 22;
+}
+
+#card23{
+    grid-column-start: 19;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 23;
+}
+
+#card24{
+    grid-column-start: 21;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 24;
+}
+
+#card25{
+    grid-column-start: 23;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 25;
+}
+
+#card26{
+    grid-column-start: 25;
+    grid-column-end: span 7;
+    grid-row-start: 3;
+    grid-row-end: span 11;
+    z-index: 26;
+}
+
+#card27{
+    grid-column-start: 1;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 27;
+}
+
+#card28{
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 28;
+}
+
+#card29{
+    grid-column-start: 5;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 29;
+}
+
+#card30{
+    grid-column-start: 7;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 30;
+}
+
+#card31{
+    grid-column-start: 9;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 31;
+}
+
+#card32{
+    grid-column-start: 11;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 32;
+}
+
+#card33{
+    grid-column-start: 13;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 33;
+}
+
+#card34{
+    grid-column-start: 15;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 34;
+}
+
+#card35{
+    grid-column-start: 17;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 35;
+}
+
+#card36{
+    grid-column-start: 19;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 36;
+}
+
+#card37{
+    grid-column-start: 21;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 37;
+}
+
+#card38{
+    grid-column-start: 23;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 38;
+}
+
+#card39{
+    grid-column-start: 25;
+    grid-column-end: span 7;
+    grid-row-start: 5;
+    grid-row-end: span 11;
+    z-index: 39;
+}
+
+#card40{
+    grid-column-start: 1;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 40;
+}
+
+#card41{
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 41;
+}
+
+#card42{
+    grid-column-start: 5;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 42;
+}
+
+#card43{
+    grid-column-start: 7;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 43;
+}
+
+#card44{
+    grid-column-start: 9;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 44;
+}
+
+#card45{
+    grid-column-start: 11;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 45;
+}
+
+#card46{
+    grid-column-start: 13;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 46;
+}
+
+#card47{
+    grid-column-start: 15;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 47;
+}
+
+#card48{
+    grid-column-start: 17;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 48;
+}
+
+#card49{
+    grid-column-start: 19;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 49;
+}
+
+#card50{
+    grid-column-start: 21;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 50;
+}
+
+#card51{
+    grid-column-start: 23;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 51;
+}
+
+#card52{
+    grid-column-start: 25;
+    grid-column-end: span 7;
+    grid-row-start: 7;
+    grid-row-end: span 11;
+    z-index: 52;
+}
+
+#card53{
+    grid-column-start: 1;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 53;
+}
+
+#card54{
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 54;
+}
+
+#card55{
+    grid-column-start: 5;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 55;
+}
+
+#card56{
+    grid-column-start: 7;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 56;
+}
+
+#card57{
+    grid-column-start: 9;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 57;
+}
+
+#card58{
+    grid-column-start: 11;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 58;
+}
+
+#card59{
+    grid-column-start: 13;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 59;
+}
+
+#card60{
+    grid-column-start: 15;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 60;
+}
+
+#card61{
+    grid-column-start: 17;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 61;
+}
+
+#card62{
+    grid-column-start: 19;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 62;
+}
+
+#card63{
+    grid-column-start: 21;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 63;
+}
+
+#card64{
+    grid-column-start: 23;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 64;
+}
+
+#card65{
+    grid-column-start: 25;
+    grid-column-end: span 7;
+    grid-row-start: 9;
+    grid-row-end: span 11;
+    z-index: 65;
+}
+
+#card66{
+    grid-column-start: 1;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 66;
+}
+
+#card67{
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 67;
+}
+
+#card68{
+    grid-column-start: 5;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 68;
+}
+
+#card69{
+    grid-column-start: 7;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 69;
+}
+
+#card70{
+    grid-column-start: 9;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 70;
+}
+
+#card71{
+    grid-column-start: 11;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 71;
+}
+
+#card72{
+    grid-column-start: 13;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 72;
+}
+
+#card73{
+    grid-column-start: 15;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 73;
+}
+
+#card74{
+    grid-column-start: 17;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 74;
+}
+
+#card75{
+    grid-column-start: 19;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 75;
+}
+
+#card76{
+    grid-column-start: 21;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 76;
+}
+
+#card77{
+    grid-column-start: 23;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 77;
+}
+
+#card78{
+    grid-column-start: 25;
+    grid-column-end: span 7;
+    grid-row-start: 11;
+    grid-row-end: span 11;
+    z-index: 78;
+}
