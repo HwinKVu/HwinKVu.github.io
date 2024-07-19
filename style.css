@@ -3,34 +3,54 @@ html {
     padding:0;
 }
 
-body {
-    margin:0;
-    padding:0;
-}
-
 h1 {
     text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 400;
 }
 
 main {
     width: 100%;
+    
+    
+    margin: 0;
 }
 
+#cardConCon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*
 #cardContainer {
     width: 310px;
-    height: 210px;
+    height: 260px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(31, 1fr);
-    grid-template-rows: repeat(21, 1fr);
+    grid-template-rows: repeat(26, 1fr);
 
 }
+    */
+
+#cardContainer {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 .card {
+    position: absolute;
     width: 70px;
     height: 110px;
     box-sizing: border-box;
-    --s: 10px; /* control the size*/
+    --s: 10px; 
     --c1: #b09f79;
     --c2: #476074;
     
@@ -45,6 +65,7 @@ main {
     border: solid 1px gold;
     border-radius: 7%;
 }
+
 
 
 .card:hover {
@@ -75,15 +96,33 @@ main {
     height: 50px;
 }
 
-#selectedCard {
+#selectedCardContainer {
     text-align: center;
     margin: 0 auto;
     width: 500px;
     height: 300px;
 }
 
-#selectedCard button{
+.cardSelect{
     margin: 10px;
+    display: none;
+    width: 70px;
+    height: 110px;
+    box-sizing: border-box;
+    --s: 10px; 
+    --c1: #b09f79;
+    --c2: #476074;
+    
+    --_g: #0000 83%,var(--c1) 85% 99%,#0000 101%;
+    background:
+      radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
+      radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
+      radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
+      radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
+      var(--c2);
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+    border: solid 1px gold;
+    border-radius: 7%;
     
 }
 
@@ -95,8 +134,22 @@ main {
     right: 0;
 }
 
-@media screen and (max-width: 480px) {
-    #selectedCard {
+@media screen and (max-width: 600px) {
+    #cardContainer {
+        width: 310px;
+        height: 260px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(31, 1fr);
+        grid-template-rows: repeat(26, 1fr);
+    
+    }
+
+    .card {
+        position: none;
+    }
+
+    #selectedCardContainer {
         width: 350px;
         height: 300px;
     }
