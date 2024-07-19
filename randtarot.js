@@ -103,19 +103,19 @@ function assignCardValues() {
 
 
 function displayCardValues() {
-    const newSiteCards = document.querySelectorAll('#selectedCard .card');
-    newSiteCards.forEach(card => {
-        const state = card.getAttribute('data-state');
-        //card.innerText = card.getAttribute('data-value'); // Display the card value
-        card.style.backgroundImage = `url(${card.getAttribute('data-img')})`;
-        card.style.backgroundSize = 'cover';
-        card.style.backgroundPosition = 'center';
-
+    for (i=0; i<cardsMoved; i++){
+        let newSiteCards = document.getElementsByClassName('cardSelect')[i];
+        state = newSiteCards.getAttribute('data-state');
+        //cardS.innerText = card.getAttribute('data-value');
+        newSiteCards.style.backgroundImage = `url(${newSiteCards.getAttribute('data-img')})`;
+        newSiteCards.style.backgroundSize = 'cover';
+        newSiteCards.style.backgroundPosition = 'center';
         if (state === 'reversed') {
-            card.style.transform = 'rotate(180deg)'; // Apply 180-degree rotation if reversed
+            newSiteCards.style.transform = 'rotate(180deg)'; // Apply 180-degree rotation if reversed
         }
-    });
+    }
 }
+
 
 let cardsMoved = 0;
 let canClick = true;
@@ -124,19 +124,27 @@ let canClick = true;
 function moveCard(cardId) {
     // Get the card element
     const card = document.getElementById(cardId);
+    
 
     // Get the new site element
-    const newSite = document.getElementById('selectedCard');
+    const cardSelect = document.getElementsByClassName('cardSelect')[cardsMoved];
+    cardSelect.style.display = 'inline-block';
+    cardSelect.setAttribute('data-value', card.getAttribute('data-value'));
+    cardSelect.setAttribute('data-img', card.getAttribute('data-img'));
+    cardSelect.setAttribute('data-state', card.getAttribute('data-state'));
 
-    // Append the card to the new site
-    newSite.appendChild(card);
+
+    
+    card.style.display = 'none';
+
 
     cardsMoved += 1;
 
     if (cardsMoved === 5) {
+        document.body.classList.add('disable-hover');
         displayCardValues();
         canClick = false;
-        document.body.classList.add('disable-hover');
+        
     }
 }
 
@@ -152,3 +160,6 @@ window.onload = function() {
         });
     });
 };
+
+
+
